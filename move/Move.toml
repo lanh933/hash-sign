@@ -1,0 +1,12 @@
+[package]
+name = "hash_sign1"
+version = "1.0.0"
+
+[addresses]
+HashSign="0x9cb4846d992f232b508868f2e6425ef712371b2c2d925e81622f830762a8b406"
+aptos_framework = "0x1"
+
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
+
